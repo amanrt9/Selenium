@@ -14,7 +14,7 @@ public class ActionClass_Methods {
         WebElement w=driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
         Actions act=new Actions(driver);
         act.doubleClick(w).perform();
-        
+        //Action class
 	}
 
 }
