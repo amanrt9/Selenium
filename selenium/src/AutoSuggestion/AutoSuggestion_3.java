@@ -1,4 +1,4 @@
-package selenium;
+package AutoSuggestion;
 
 import java.util.List;
 

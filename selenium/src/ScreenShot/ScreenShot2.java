@@ -1,4 +1,4 @@
-package selenium;
+package ScreenShot;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package selenium;
+package Action_Class;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

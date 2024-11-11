@@ -1,4 +1,4 @@
-package selenium;
+package Multiple_window_Handle;
 
 import java.time.Duration;
 import java.util.ArrayList;

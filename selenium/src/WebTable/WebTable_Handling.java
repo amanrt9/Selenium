@@ -1,4 +1,4 @@
-package selenium;
+package WebTable;
 
 import java.util.List;
 

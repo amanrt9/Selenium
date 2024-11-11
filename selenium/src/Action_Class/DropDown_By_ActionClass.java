@@ -1,4 +1,4 @@
-package selenium;
+package Action_Class;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ public class DropDown_By_ActionClass {
 	       driver.get("https://www.flipkart.in");
 	       WebElement w=driver.findElement(By.xpath("//span[text()='Login']"));
 	       Actions act =new Actions(driver);
-	      act.moveToElement(w).perform();//hoverS
+	      act.moveToElement(w).perform();//hover
 	       
 	     driver.findElement(By.xpath("(//li[@class='AT0fUR'])[6]")).click();
 	     

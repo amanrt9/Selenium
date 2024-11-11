@@ -1,4 +1,4 @@
-package selenium;
+package ListBox;
 
 import java.util.List;
 
@@ -16,7 +16,7 @@ public class ListBox_By_RegularMethod
        WebDriver driver=new ChromeDriver();
        driver.get("https://testautomationpractice.blogspot.com/");
       List<WebElement> wb=driver.findElements(By.xpath("//select[@id='country']/option"));
-      //here if we do not take/option in xpath then it is use for select class but if we have to take a list then we use /option in xpath to et list
+      //here if we do not take/option in xpath then it is use for select class but if we have to take a list then we use /option in xpath to get list
       String Expected="Japan";
      for(WebElement x:wb)
      {

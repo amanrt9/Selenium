@@ -1,4 +1,4 @@
-package selenium;
+package ToolTip;
 
 import java.util.LinkedHashSet;
 

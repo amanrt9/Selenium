@@ -1,4 +1,4 @@
-package selenium;
+package AutoSuggestion;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class AutoSuggeston {
+public class AutoSuggestion {
 
 	public static void main(String[] args) throws InterruptedException 
 	{

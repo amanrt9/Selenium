@@ -5,7 +5,7 @@
     <classes>
       <class name="TestNG.FirstTest_TestNG">
         <methods>
-          <include name="TC03_Print2"/>
+          <include name="TC02_print"/>
         </methods>
       </class> <!-- TestNG.FirstTest_TestNG -->
     </classes>
