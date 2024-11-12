@@ -1,0 +1,35 @@
+package TestNG;
+
+import org.testng.annotations.Test;
+
+public class DependsOnWithPriority 
+{
+	//if their is priority keyword in any on method then in that case priority wise methods run
+	@Test()
+    public void openApp()
+    {
+   	 System.out.println("OpenApp");
+    }
+    
+    @Test(priority=1,dependsOnMethods= {"openApp"})
+    public void login()
+    {
+   	 System.out.println("Login");
+    }
+    @Test
+    public void search()
+    {
+   	 System.out.println("Search");
+    }
+    @Test
+    public void advSearch()
+    {
+   	 System.out.println("AdvSearch");
+    }
+    @Test
+    public void logout()
+    {
+   	 System.out.println("Logout");
+    }
+
+}
