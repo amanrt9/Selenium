@@ -8,7 +8,7 @@ public class TimesOut_TestNG {
 	@Test(timeOut=5000)
     public void TC01()
     {
-      System.out.println("TimesOut Code");;
+      System.out.println("TimesOut Code");
    
     }
 	@Test(timeOut=5000)

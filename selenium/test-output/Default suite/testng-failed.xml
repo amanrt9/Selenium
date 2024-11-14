@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.FirstTest_TestNG">
+      <class name="TestNG.CrossBrowsing_Testing">
         <methods>
-          <include name="TC02_print"/>
+          <include name="VerfifyLoginTC"/>
         </methods>
-      </class> <!-- TestNG.FirstTest_TestNG -->
+      </class> <!-- TestNG.CrossBrowsing_Testing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
