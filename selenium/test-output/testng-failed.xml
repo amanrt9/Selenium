@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.CrossBrowsing_Testing">
+      <class name="TestNG.Assertion_SoftAssertion">
         <methods>
-          <include name="VerfifyLoginTC"/>
+          <include name="abc"/>
         </methods>
-      </class> <!-- TestNG.CrossBrowsing_Testing -->
+      </class> <!-- TestNG.Assertion_SoftAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

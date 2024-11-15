@@ -14,16 +14,19 @@ public class DependsOnWithPriority2 {
     {
    	 System.out.println("Login");
     }
+    
     @Test
     public void search()
     {
    	 System.out.println("Search");
     }
+    
     @Test
     public void advSearch()
     {
    	 System.out.println("AdvSearch");
     }
+    
     @Test(priority=2)
     public void logout()
     {
