@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Assertion_SoftAssertion">
+      <class name="pom_DDF_TestNG_TestBase_Utility_Properties_FailedTCSS.SwagLabLoginTest">
         <methods>
-          <include name="abc"/>
+          <include name="OpenFileExcle"/>
+          <include name="homepage"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- TestNG.Assertion_SoftAssertion -->
+      </class> <!-- pom_DDF_TestNG_TestBase_Utility_Properties_FailedTCSS.SwagLabLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

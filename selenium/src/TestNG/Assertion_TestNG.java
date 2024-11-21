@@ -9,8 +9,7 @@ public class Assertion_TestNG {
 	{
 		String expected="Login";
 		String actual="Logout";
-		Assert.assertEquals(actual,expected,"This is not Matching");
-		
+		Assert.assertEquals(actual,expected,"This is not Matching");		
 	}
 	@Test
 	public void check()
