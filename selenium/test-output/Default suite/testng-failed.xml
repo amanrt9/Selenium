@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pom_DDF_TestNG_TestBase_Utility_Properties_FailedTCSS.SwagLabLoginTest">
+      <class name="TestNG.CrossBrowsing_Testing">
         <methods>
-          <include name="OpenFileExcle"/>
-          <include name="homepage"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="closeBrowser"/>
+          <include name="VerfifyLoginTC"/>
         </methods>
-      </class> <!-- pom_DDF_TestNG_TestBase_Utility_Properties_FailedTCSS.SwagLabLoginTest -->
+      </class> <!-- TestNG.CrossBrowsing_Testing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
