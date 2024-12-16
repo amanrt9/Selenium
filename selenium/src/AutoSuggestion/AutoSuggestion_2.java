@@ -17,10 +17,10 @@ public class AutoSuggestion_2
 		driver.findElement(By.xpath("//textarea[@class='gLFyf']")).sendKeys("dhoni");
 		Thread.sleep(2000);
 
-		List<WebElement>w=driver.findElements(By.xpath("(//ul[@class='G43f7e'])[1]//li//div[@class='wM6W7d']"));
+		List<WebElement>w=driver.findElements(By.xpath("//ul/li//div[@class='wM6W7d']"));
 
 		String expected="dhoni net worth";
-
+		
 		for(WebElement x:w)
 		{
 			String f=x.getText();

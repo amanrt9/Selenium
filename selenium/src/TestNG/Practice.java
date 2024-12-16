@@ -6,9 +6,9 @@ public class Practice {
 	
 	
 	
-	@Test(invocationCount,timesout=5000,priority,dependsOnMethods,groups,alwaysRun)
+	@Test(invocationCount,timesout=5000,priority,dependsOnMethods,groups,alwaysRun,enable)
 	publi
-	@Test//2
+	@Test(enable)//2
 	@Test(expectedExceptions=NoSuchElement.class)
 	()
 }
