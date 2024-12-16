@@ -11,7 +11,7 @@ public class Disable_Notification {
 		ChromeOptions cp=new ChromeOptions();
 		cp.addArguments("--disable-notifications");
 		WebDriver driver=new ChromeDriver(cp);
-		driver.get("https://www.ixigo.com/");
+		driver.get("https://pushalert.co/demo");
 		
 	}
 
